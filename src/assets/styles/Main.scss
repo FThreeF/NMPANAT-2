@@ -1,12 +1,23 @@
 @use "./Null.scss";
-
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 #root {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1300px;
     overflow: hidden;
     margin: 0 auto;
+    padding: 0 10px;
+}
+h2{
+    font-size: 36px;
+    line-height: 48px;
+
 }

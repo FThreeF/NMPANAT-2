@@ -1,0 +1,85 @@
+@import "../../assets/styles/Variables.scss";
+
+.footer{
+    background-color: $black ;
+    padding: 12px 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0 56px 0;
+    
+}
+.list{
+    
+    display: flex;
+    gap: 24px;
+  
+}
+.link{
+    text-decoration: none;
+    color: $light;
+    @extend %body1;
+    cursor: pointer;
+}
+.form{
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255, 5%) ;
+    padding: 80px 64px  ;
+    justify-content: space-between;
+}
+.title{
+    color: $light;
+    letter-spacing: -2px;
+    width: 562px;
+
+    
+}
+.text{
+    @extend %body1;
+    color: $light;
+    opacity: 0.7;
+}
+.input{
+    width: 323px;
+    height: 56px;
+    color: $light;
+    background-color: transparent;
+    border: 1px solid $mediumGray;
+    padding: 14px 25px;
+    outline: none;
+}
+.input::placeholder{
+    color: $mediumGray;
+}
+.groupIcon{
+    display: flex;
+    gap: 12px;
+    
+}
+.icon{
+    cursor: pointer;
+}
+.button{
+    width: 179px;
+    height: 56px;
+    background-color: $yellow;
+    color: $black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.block{
+    display: flex;
+    gap: 24px;
+
+}

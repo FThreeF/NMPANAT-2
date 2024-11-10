@@ -10,6 +10,34 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />,
+      },
+      {
+        path: '/blog',
+        element:"Blog",
+      },
+      {
+        path: '/blogPost',
+        element: '/blogPost',
+      },
+      {
+        path: '/aboutUs',
+        element: '/aboutUs',
+      },
+      {
+        path: '/category',
+        element: '/category',
+      },
+      {
+        path: '/author',
+        element: '/author',
+      },
+      {
+        path: '/contactUs',
+        element: '/contact',
+      },
+      {
+        path: '/privacyPolicy',
+        element: '/privacyPolicy',
       }
     ]
   }

@@ -1,4 +1,4 @@
-
+//  цвета
 $black: #232536;
 $yellow: #FFD050;
 $purple: #592EA9;
@@ -7,3 +7,9 @@ $mediumGray: #6D6E76;
 $lightGray: #F4F4F4;
 $lavender: #F4F0F8;
 $lightYellow: #FBF6EA;
+$light: #ffffff;
+// размеры текста
+%body1 {
+    font-size: 16px;
+    line-height: 28px;
+}
