@@ -1,0 +1,10 @@
+@import '../../assets/styles/Variables.scss';
+
+.mainButton {
+    background-color: $yellow;
+    color: $black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 16px 48px;
+}
