@@ -1,6 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./pages/homePage/HomePage";
+import HomePage from "./pages/HomePage";
 import MainPage from "./pages/mainPage/MainPage";
+import BlogPage from "./pages/BlogPage";
+import AboutUsPage from "./pages/AboutUsPage";
+import ContactUsPage from "./pages/ContactUsPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/blog',
-        element:"Blog",
+        element: <BlogPage />,
       },
       {
         path: '/blogPost',
@@ -21,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/aboutUs',
-        element: '/aboutUs',
+        element: <AboutUsPage />,
       },
       {
         path: '/category',
@@ -33,11 +37,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/contactUs',
-        element: '/contact',
+        element: <ContactUsPage />,
       },
       {
         path: '/privacyPolicy',
-        element: '/privacyPolicy',
+        element: <PrivacyPolicyPage />,
       }
     ]
   }
