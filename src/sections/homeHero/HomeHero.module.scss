@@ -41,11 +41,13 @@
 .title {
     @extend %display;
     margin-top: 24px;
+    color: $light;
 }
 
 .date {
     @extend %body1;
     margin-top: 24px;
+    color: $light;
 }
 
 .important {
@@ -54,8 +56,9 @@
 }
 
 .text {
-    margin-top: 16px;
     @extend %body1;
+    margin-top: 16px;
+    color: $light;
 }
 
 .button {

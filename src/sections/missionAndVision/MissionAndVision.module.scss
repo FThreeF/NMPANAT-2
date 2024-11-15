@@ -1,5 +1,30 @@
 @use '../../assets/styles/Variables.scss' as *;
 
 .missionAndVision {
+    background-color: $lavender;
+    padding: 128px 0 64px 0;
+}
 
+.container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.inscription {
+    @extend %cap1;
+    color: $black;
+    text-transform: uppercase;
+}
+
+.title {
+    color: $black;
+    margin: 24px 0 16px 0;
+    width: 450px;
+}
+
+.text {
+    @extend %body1;
+    color: $mediumGray;
+    width: 500px;
 }

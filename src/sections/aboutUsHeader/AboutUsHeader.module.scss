@@ -1,5 +1,48 @@
-@use '../../assets/styles/Variables.scss' as *;
+@use "../../assets/styles/Variables.scss" as *;
 
 .aboutUsHeader {
+}
 
+.container {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+  position: relative;
+  top: 63px;
+}
+
+.group {
+  margin: 0 auto;
+  max-width: calc(1113px + 32px);
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  min-width: 624px;
+  padding: 64px;
+  gap: 16px;
+  background-color: $light;
+}
+
+.inscription {
+  @extend %cap3Medium;
+  color: $black;
+}
+
+.title {
+  color: $black;
+}
+
+.text {
+  @extend %body1;
+  color: $darkGray;
+}
+
+.img {
+  display: flex;
+  margin: 0 auto;
 }

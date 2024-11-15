@@ -1,6 +1,6 @@
 import MainButton from "../../components/mainButtton/MainButton";
 import s from "./BlogHeader.module.scss";
-import Image from "../../assets/images/AboutUsHeaderImage.png";
+import Image from "../../assets/images/BlogHeaderImage.png";
 
 const BlogHeader = () => {
   return (
