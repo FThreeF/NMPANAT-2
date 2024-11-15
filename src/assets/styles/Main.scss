@@ -1,12 +1,18 @@
 @use "./Null.scss";
-*{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Sen:regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+* {
+    font-family: 'Sen';
 }
+
 #root {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
+
 }
 
 .container {
@@ -15,6 +21,7 @@
     margin: 0 auto;
     padding: 0 10px;
 }
+
 h2 {
     font-size: 36px;
     line-height: 48px;

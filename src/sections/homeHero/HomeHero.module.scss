@@ -23,13 +23,39 @@
     color: $light;
 }
 
-.date,
+.inscription {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: $light;
+    text-transform: uppercase;
+}
+
+.inscriptionImportant {
+    @extend .inscription;
+    font-weight: 900;
+}
+
 .title {
+    @extend %display;
     margin-top: 24px;
+}
+
+.date {
+    @extend %body1;
+    margin-top: 24px;
+}
+
+.important {
+    @extend .date;
+    color: $yellow;
 }
 
 .text {
     margin-top: 16px;
+    @extend %body1;
 }
 
 .button {

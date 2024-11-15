@@ -1,3 +1,4 @@
+import AboutUsAndOurMission from "../sections/aboutUsAndOurMission/AboutUsAndOurMission";
 import ChooseCatagory from "../sections/chooseCatagory/ChooseCatagory";
 import FeaturedPosts from "../sections/featuredPosts/FeaturedPosts";
 import HomeHero from "../sections/homeHero/HomeHero";
@@ -12,6 +13,7 @@ const HomePage = () => {
         <>
             <HomeHero />
             <FeaturedPosts />
+            <AboutUsAndOurMission />
             <ChooseCatagory />
             <SpecialPost />
             <ListOfAuthors />

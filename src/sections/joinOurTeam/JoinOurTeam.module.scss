@@ -1,5 +1,25 @@
 @use '../../assets/styles/Variables.scss' as *;
 
 .joinOurTeam {
+    padding: 128px 0;
+}
 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    max-width: 460px;
+}
+
+
+.text {
+    @extend %body1;
+    max-width: 414px;
+    margin: 16px 0 32px 0;
 }

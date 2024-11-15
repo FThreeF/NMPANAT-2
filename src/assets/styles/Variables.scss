@@ -1,15 +1,43 @@
 //  цвета
 $black: #232536;
-$yellow: #FFD050;
-$purple: #592EA9;
-$darkGray: #4C4C4C;
-$mediumGray: #6D6E76;
-$lightGray: #F4F4F4;
-$lavender: #F4F0F8;
-$lightYellow: #FBF6EA;
+$yellow: #ffd050;
+$purple: #592ea9;
+$darkGray: #4c4c4c;
+$mediumGray: #6d6e76;
+$lightGray: #f4f4f4;
+$lavender: #f4f0f8;
+$lightYellow: #fbf6ea;
 $light: #ffffff;
 // размеры текста
+
+%display {
+  font-family: "Sen";
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+%label1 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
 %body1 {
+  font-family: "Inter";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+%cap3Medium {
+    font-family: 'Inter';
+    font-weight: 500;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 20px;
+    letter-spacing: 3px;
 }
