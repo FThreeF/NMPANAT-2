@@ -1,0 +1,35 @@
+@use "../../assets/styles/Variables.scss" as *;
+
+.authorBlock {
+  padding: 28px 40px;
+  background-color: $lightGray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.title {
+  color: $black;
+}
+
+.text {
+  @extend %body2;
+  color: $mediumGray;
+  margin-bottom: 20px;
+}
+
+.groupIcon {
+    border: 2px solid red;
+    color:red;
+}
+
+.icon {
+    color: green; /* Цвет иконки */
+
+}

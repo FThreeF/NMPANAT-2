@@ -1,5 +1,27 @@
-@use '../../assets/styles/Variables.scss' as *;
+@use "../../assets/styles/Variables.scss" as *;
 
 .listOfAuthors {
+}
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.title {
+  color: $black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 32px;
 }
