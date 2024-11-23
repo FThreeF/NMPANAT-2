@@ -1,5 +1,23 @@
 @use '../../assets/styles/Variables.scss' as *;
 
 .privacyPolicyHeader {
-
+background-color: $lavender ;
+padding: 80px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+.title{
+    color: $black;
+}
+.text{
+    @extend %body1;
+    color: $black;
+    opacity: 60%;
+    
 }

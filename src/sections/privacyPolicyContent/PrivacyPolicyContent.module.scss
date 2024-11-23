@@ -1,5 +1,30 @@
 @use '../../assets/styles/Variables.scss' as *;
 
 .privacyPolicyContent {
-
+padding: 128px 0;
 }
+.container{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    
+    width: 715px;
+    color: $black;
+}
+.text{
+
+    @extend %body1;
+    width: 768px;
+    color: $darkGray;
+    
+}
+.text:nth-of-type(1){
+    padding: 32px 0;
+}
+.text:nth-of-type(2){
+    padding: 24px 0 40px 0;
+}
+
